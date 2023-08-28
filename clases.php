@@ -6,11 +6,11 @@ require 'puntuaciones.class.php';
 class DB
 {
 
-    const HOST = 'sql107.epizy.com';
-    const DATABASE = 'epiz_33324350_contadoruno';
+    const HOST = 'Your database provides';
+    const DATABASE = 'schema name';
     const DNS = 'mysql:host=' . self::HOST . ';dbname=' . self::DATABASE;
-    const USUARIO = 'epiz_33324350';
-    const PASSWORD = 'lDTUyR2UBgl';
+    const USUARIO = 'user';
+    const PASSWORD = 'password';
 
 
     private static $instance = null;
