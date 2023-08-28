@@ -3,13 +3,14 @@ webpage to take count of the points while playing UNO, it can be used mostly for
 
 ###Database schema### 
 
-jugadores
+Jugadores table:
 | name  | Type  | attributes |
 |:-------------:|:---------------:|:-------------:|
 | id       | int(11)       | auto_increment primary        |
 | nombre         | varchar(255)       |         |
 
-puntuaciones
+Puntuaciones table:
+
 | name  | Type  |
 |:-------------:|:---------------:|
 | jugadorid       | int(11)       |      
